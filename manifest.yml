@@ -1,6 +1,6 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
- host: simple-website-${random}
- name: simple-website
+ host: sustentate-website
+ name: sustentate-website
  memory: 64M
  stack: cflinuxfs2
