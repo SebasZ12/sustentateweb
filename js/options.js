@@ -22,22 +22,22 @@ var calendarOptions = {
 var organizers = [
   {
     name: "APP",
-    displayName: "APP",
-    description: "Si nos organizamos….. votamos todos. ¿Qué día era la asamblea? ¿Dónde es la fiesta? ¿Cómo hago para….? Todo esto y menos hacemos en organización.",
+    displayName: "Aplicación móvil",
+    description: "Nuestra aplicación móvil es un espacio digital donde podrás conocer si un producto es reciclable o no.",
     email: "partidodelared@gmail.com",
     color: "#169CBF"
   },
   {
-    name: "Experiencias",
-    displayName: "Experiencias",
-    description: "Codeamos soluciones y desencriptamos problemas. Entrá a <a href='http://queproponen.com.ar' target='_blank'>¿Qué proponen? sarasa sarasa sarasa sarasa</a> o <a href='http://concesionopoly.com.ar' target='_blank'>Concesionopoly</a> y enterate. Todo con una pizca de amor.",
+    name: "Difusion",
+    displayName: "Difusión",
+    description: "Diseñamos e implementamos campañas para organizaciones dando a conocer el desarrollo sostenible en las redes sociales",
     email: "plataformas@partidodelared.org",
     color: "#EA4040"
   },
   {
-    name: "Concientizar",
-    displayName: "Concientizar",
-    description: "NO, nos autofinanciamos pensando en crowdfunding, favoreciendo el contacto con otra organizaciones, impulsando la transparencia y a favor de cambios en la ley que hable de un voto y no un secreto.",
+    name: "Conciencia",
+    displayName: "Conciencia",
+    description: "Ofrecemos capacitaciones sobre cuidado del ambiente en el hogar, empresa y comunidad acompañando con una fuerte campaña de comunicación",
     email: "financiamiento@partidodelared.org",
     color: "#FF9800"
   },

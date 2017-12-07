@@ -2,352 +2,313 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="theme-color" content="#169CBF">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="theme-color" content="#169CBF">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Sustentate</title>
-  <meta name="description" content="Tu asistente móvil ecológico">
-  <meta name="author" content="Sustentate">
-  <link rel="shortcut icon" href="img/favicon.ico" />
-
-  <link rel="stylesheet" href="css/stylesc619.css?v=1.0">
-  <link rel="stylesheet" href="css/styles_mobilec619.css?v=1.0">
-  <link rel="stylesheet" href="css/fullcalendarc619.css?v=1.0">
-  <link rel="stylesheet" href="css/meetupc619.css?v=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-  <!--[if lt IE 9]>
+    <title>Sustentate</title>
+    <meta name="description" content="Tu asistente móvil ecológico">
+    <meta name="author" content="Sustentate">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/stylesc619.css?v=1.0">
+    <link rel="stylesheet" href="css/styles_mobilec619.css?v=1.0">
+    <link rel="stylesheet" href="css/fullcalendarc619.css?v=1.0">
+    <link rel="stylesheet" href="css/meetupc619.css?v=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/cfbdb6787a.js"></script>
+    <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+    <style>
+        @media (max-width: 550px) {
+            .big-container {
+                display: none;
+            }
+        }
+
+        @media (min-width: 550px) {
+            .small-container {
+                display: none;
+            }
+        }
+        /* Responsive iFrame */
+
+        .responsive-iframe-container {
+            position: relative;
+            padding-bottom: 75%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .responsive-iframe-container iframe,
+        .vresponsive-iframe-container object,
+        .vresponsive-iframe-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 
 <body>
 
-  <section id="portada" class="vertical-center horizontal-center height-almost-full" style="background-image: url(img/portada.jpg)">
-    <div class="bk pdrfy position-absolute width-full height-full">
-      <video src="img/portada.mp4" autoplay="" muted="" loop="" poster="img/portada.jpg"></video>
-    </div>
-    <div class="wrapper">
-      <div class="title thiner all-caps">#Sustentate</div>
-      <!--<span class="bold"></span>-->
-      <separador class="veinte"></separador>
-      <a href="http://afiliaciones.partidodelared.org/afiliate" target="_blank">
-        <div class="button h2 bold pad60 bk-color-3 display-inline">DESCARGA LA APP</div>
-      </a>
-      <a href="#" target="_blank">
-        <img src="img/googleplay.png" alt="google play" class="gp horizontal-center">
-      </a>
-    </div>
-  </section>
+    <section id="portada" class="vertical-center horizontal-center height-almost-full" style="background-image: url('img/portada.jpg')">
+        <div class="bk pdrfy position-absolute width-full height-full">
+            <video src="img/portada.mp4" autoplay="" muted="" loop="" poster="img/portada.jpg"></video>
+        </div>
+        <div class="wrapper">
+            <separador class="veinte"></separador>
 
-  <section id="header" class="root pad20 horizontal-center width-full vertical-center height-almost-full_comp">
-    
-    <nav id="menu">
-        <div class="icono logo" id="logo"data-section="portada"></div>
-      <div class="menuButton"></div>      
-      <li class="menuitem" data-section="equipo">Qué hacemos</li>
-      <li class="menuitem" data-section="visionciudad">Sobre nosotros</li>
-      <li class="menuitem" data-section="calendario">Agenda Ambiental</li>
-      <a href="http://afiliaciones.partidodelared.org/afiliate" target="_blank">
-        <div class="button mini h4 bold pad30 bk-color-3-inv no-width">DESCARGA LA APP</div>
-      </a>   
-    </nav>
-  </section>
+            <div class="title thiner all-caps">#Sustentate</div>
+            <!--<span class="bold"></span>-->
+            <separador class="veinte"></separador>
+
+            <a href="#" target="_blank">
+                <div class="button h2 bold pad60 bk-color-3 display-inline">DESCARGA LA APP</div>
+            </a>
+            <separador class="veinte"></separador>
+            <div>
+                <img src="img/proximamente-GooglePlay.png" alt="google play" class="gp ">
+                <img src="img/appstore_proximamente.png" alt="app store" class="gp ">
+            </div>
+        </div>
+    </section>
+
+    <section id="header" class="root pad20 horizontal-center width-full vertical-center height-almost-full_comp">
+
+        <nav id="menu">
+            <div class="icono logo" id="logo" data-section="portada"></div>
+            <div class="menuButton"></div>
+            <li class="menuitem" data-section="equipo">Qué hacemos</li>
+            <li class="menuitem" data-section="visionciudad">Sobre nosotros</li>
+            <li class="menuitem" data-section="calendario">Agenda Ambiental</li>
+            <a href="#" target="_blank">
+                <div class="button mini h4 bold pad30 bk-color-3-inv no-width">DESCARGA LA APP</div>
+            </a>
+        </nav>
+    </section>
 
 
 
-  <section id="nuestrapropuesta" class="text-center bk-color-gray3 pad80 no-vertical-pad">
-    
-    <div class="wrapper">
-        <section id="equipo" class="pad80 text-center overflow-hidden parallax">
-            
+    <section id="nuestrapropuesta" class="text-center bk-color-gray3 pad80 no-vertical-pad">
+
+        <div class="wrapper">
+            <section id="equipo" class="pad80 text-center overflow-hidden parallax">
+
+                <div class="wrapper">
+                    <div class="title">Que hacemos</div>
+                    <separador class="diez"></separador>
+                    <div class="pad60" id="equipoContenedor"></div>
+                </div>
+            </section>
+            <separador class="veinte"></separador>
+        </div>
+    </section>
+
+    <section id="herramientaDOS" class="text-center bk-color-gray2 font-color-white pad60" style="box-shadow: 1px 1px 10px grey;">
+
+
+    </section>
+
+    <section id="visionciudad" class="pad80 text-center overflow-hidden parallax">
+        <div class="bk image parallax-bk op-8"></div>
+        <div class="wrapper">
+            <div class="title">Sobre nosotros</div>
+            <separador class="veinte"></separador>
+
+
+            <section id="team" class="team section clearfix">
+                <div class="team-avatars">
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-1.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Victoria Gardella</h4>
+                            <p class="role">Co-Founder</p>
+                            <p class="bio">Estudiante de una licenciatura en gerenciamiento ambiental. Me apasiona la ecología, la tecnología
+                                y la participación en actividades socio-comunitarias. Hice un intercambio en Suiza y trabajé
+                                en los JJOO de Rio 2016.</p>
+                            <div class="social">
+                                <a href="mailto:vick.gardella@gmail.com" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/victoriagardella" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-2.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Luca Grisotto D’Amico</h4>
+                            <p class="role">Co-Founder</p>
+                            <p class="bio">Tengo 16 años y soy estudiante de la escuela secundaria. Me apasiona la computación y la programación.</p>
+                            <div class="social">
+                                <a href="mailto:" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/luca-grisotto-d-amico-914239b1/" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-3.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Hanss Becerra</h4>
+                            <p class="role">Co-Founder</p>
+                            <p class="bio">Tengo 21 años y estoy estudiando comunicación social en la Universidad de Buenos Aires, me considero
+                                amante de la publicidad y la tecnología.</p>
+                            <div class="social">
+                                <a href="mailto:" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-avatars">
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-4.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Luciana Mendez</h4>
+                            <p class="role">Frontend Developer </p>
+                            <p class="bio">Me formé como programadora en
+                                <a href="https://www.ada.com.ar/">Ada</a>, un coding Bootcamp para mujeres. Además soy diseñadora gráfica, fotógrafa y militante
+                                empedernida de la inclusión y diversidad</p>
+                            <div class="social">
+                                <a href="mailto:dg.lucianamendez@gmail.com" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://github.com/lucianamendez" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/lucianamendez/" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-5.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Pablo Cavallo</h4>
+                            <p class="role">Backend Developer</p>
+                            <p class="bio">Soy arquitecto de Software con mas de 15 años de experiencia, entusiasta del Open Source y la
+                                electrónica. Me gustan los desafíos y el trabajo en equipo.</p>
+                            <div class="social">
+                                <a href="mailto:pac@codebox.com.ar" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://github.com/pacdaemon" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/pablo-cavallo-7508b8" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <div style="background-image: url('images/avatar-6.jpg')" class="picture"></div>
+                        <div class="content">
+                            <h4 class="name">Sebastián</h4>
+                            <p class="role">Android Developer</p>
+                            <p class="bio"></p>
+                            <div class="social">
+                                <a href="mailto:emzash.1@gmail.com" target="_blank">
+                                    <span class="flaticon social flaticon-email">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <section id="calendario" class="pad80 text-center bk-color-gray4 overflow-hidden">
             <div class="wrapper">
-              <div class="title">Que hacemos</div>
-              <separador class="diez"></separador>
-              <div class="pad60" id="equipoContenedor"></div>
-              </div>
-     </section>
-      <separador class="veinte"></separador>
-    </div>
-  </section>
+                <div class="title">Agenda Ambiental</div>
+                <h4>Gracias al aporte de personas como vos, podemos obtener recursos para seguir expandiendo el conocimiento
+                    en materia de sostenibilidad.</h4>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScgWyVA3nbM-p2r_xpHxp4cKTduEo4KZxqe2KqW6Gf1sZeHzQ/viewform?usp=sf_link">
+                    <div id="sumate" class="button:hover">¡Sumate!</div>
+                </a>
+                <separador class="veinte"></separador>
+                <div class="horizontal-center">
 
-  <section id="herramientaDOS" class="text-center bk-color-gray2 font-color-white pad60">
+                </div>
+                <div class="responsive-iframe-container big-container">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%2366cccc&amp;src=8r5eaeh0rp04tpv6mghb5r44ds%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FArgentina%2FBuenos_Aires"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
 
-      
-  </section>
+                <div class="responsive-iframe-container small-container">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=800&amp;wkst=1&amp;bgcolor=%2366cccc&amp;src=8r5eaeh0rp04tpv6mghb5r44ds%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FArgentina%2FBuenos_Aires"
+                        style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+        </section>
 
-  <section id="visionciudad" class="pad80 text-center overflow-hidden parallax bk-color-black" style='background-repeat: no-repeat repeat;
-  background-attachment: fixed;'>
-    <div class="bk image parallax-bk op-8" data-src="img/cover-equipo-blur.jpg"></div>
-    <div class="wrapper">
-      <div class="title">Sobre nosotros</div>
-      <separador class="veinte"></separador>
- 
-    
-    <section id="team" class="team section clearfix">
-        <div class="team-avatars">
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-agustin.jpg')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Agustín Frizzera</h4>
-                    <p class="role">Director Ejecutivo</p>
-                    <p class="bio">Sociólogo y Máster en Gestión Urbanística. Porteño, melómano, cinéfilo, y algo más.</p>
-                    <div class="social">
-                        <a href="http://www.twitter.com/agustinfrizzera" target="_blank">
-                            <span class="flaticon social flaticon-twitter"></span>
-                        </a>
-                        <a href="mailto:agustin@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-ana.jpg')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Ana Lis Rodríguez Nardelli</h4>
-                    <p class="role">Investigación</p>
-                    <p class="bio">Antropóloga, investigadora, militante. Poesía y buen humor.</p>
-                    <div class="social">
-                        <a href="http://www.twitter.com/annagramma" target="_blank">
-                            <span class="flaticon social flaticon-twitter"></span>
-                        </a>
-                        <a href="mailto:ana@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-powa.jpg')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Don Powa</h4>
-                    <p class="role">Comunicación</p>
-                    <p class="bio">Curioso, disléxico y compulsivo. Optimista emocional y pesimista cerebral.</p>
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/don-powa-59290473" target="_blank">
-                            <span class="flaticon social flaticon-linkedin"></span>
-                        </a>
-                        <a href="mailto:donpowa@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-esteban.jpg')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Esteban Brenman</h4>
-                    <p class="role">Vicepresidente</p>
-                    <p class="bio">Emprendedor compulsivo. Hace @trilapp</p>
-                    <div class="social">
-                        <a href="http://www.twitter.com/ebrenman" target="_blank">
-                            <span class="flaticon social flaticon-twitter"></span>
-                        </a>
-                        <a href="mailto:esteban@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-florencia.png')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Florencia Polimeni</h4>
-                    <p class="role">Presidenta</p>
-                    <p class="bio">Es politóloga de formación y exploradora de vocación. Artesana, viajera, madre, coleccionista de arte
-                        y militante.</p>
-                    <div class="social">
-                        <a href="http://www.twitter.com/juicyminerva" target="_blank">
-                            <span class="flaticon social flaticon-twitter"></span>
-                        </a>
-                        <a href="mailto:florencia@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="avatar">
-                <div style="background-image: url('images/avatar-guido.jpg')" class="picture"></div>
-                <div class="content">
-                    <h4 class="name">Guido Vilariño</h4>
-                    <p class="role">Consultor Software</p>
-                    <p class="bio">Rock. Explicaciones claras de conceptos informáticos garantizadas. Gurú del desarrollo lean.</p>
-                    <div
-                        class="social">
-                        <a href="http://www.twitter.com/gvilarino" target="_blank">
-                            <span class="flaticon social flaticon-twitter"></span>
-                        </a>
-                        <a href="mailto:guido@democraciaenred.org" target="_blank">
-                            <span class="flaticon social flaticon-email"></span>
-                        </a>
-                </div>
-            </div>
-        </div>
-        <div class="avatar">
-            <div style="background-image: url('images/avatar-inti.jpg')" class="picture"></div>
-            <div class="content">
-                <h4 class="name">Inti Bonomo</h4>
-                <p class="role">Pedagogía y Política</p>
-                <p class="bio">o pedagogía política porque son indivisibles. Hombre sensible y fundamentalista del Funk.</p>
-                <div class="social">
-                    <a href="mailto:inti@democraciaenred.org" target="_blank">
-                        <span class="flaticon social flaticon-email"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="avatar">
-            <div style="background-image: url('images/avatar-marianol.jpg')" class="picture"></div>
-            <div class="content">
-                <h4 class="name">Mariano Lopata</h4>
-                <p class="role">Director de Educación</p>
-                <p class="bio">Psicólogo; Especialista en Metodología y Director de Investigación de SOLE Argentina. Maestro nítido de ideas
-                    simples y poderosas.</p>
-                <div class="social">
-                    <a href="http://www.twitter.com/marianolopata" target="_blank">
-                        <span class="flaticon social flaticon-twitter"></span>
-                    </a>
-                    <a href="mailto:mglopata@democraciaenred.org" target="_blank">
-                        <span class="flaticon social flaticon-email"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-      
-      </div>
-    </div>
-  </section>
-  <section id="calendario" class="pad80 text-center bk-color-gray4 overflow-hidden">
-    <div class="wrapper">
-      <div class="title">Agenda Ambiental</div>
-      <separador class="veinte"></separador>
-      <div class="horizontal-center">
-        <div class="meetup">
-          <div class="mug-badge" style="width: 214px;">
-            <div class="mup-widget">
-              <div class="mup-bd">
-                <h3>
-                  <a target="_top" href="https://www.meetup.com/El-Partido-de-la-Red/">Partido de la Red</a>
-                </h3>
-                <h4>
-                  <div style="padding-top:5px;">
-                    <span class="mup-tlabel">EST. Jul 17, 2015</span>
-                  </div>
-                </h4>
-                <span class="mup-stats">
-                  <div class="mup-img-wrap">
-                    <img src="../photos3.meetupstatic.com/photos/event/1/4/1/d/600_456125149.jpg" width="175" alt="Partido de la Red." class="mup-img">
-                  </div>
-                </span>
-                <span class="mup-stats">
-                  <div class="next-event">
-                    <span class="mup-tlabel">
-                      <a target="_top" href="https://www.meetup.com/El-Partido-de-la-Red/">Proponé nuevas ideas para eventos!</a>
-                    </span>
-                  </div>
-                </span>
-                <h4>
-                  <a target="_top" href="https://www.meetup.com/El-Partido-de-la-Red/">
-                    <div class="button mini h4 bold pad20 bk-color-2">UNIRSE</div>
-                  </a>
-                </h4>
-              </div>
-              <div class="mup-ft">
-                <div class="mup-logo">
-                  <div style="float:left;">
-                    <a target="_top" href="http://www.meetup.com/">
-                      <img src="../a248.e.akamai.net/secure.meetupstatic.com/img/84869143793177372874/birddog/everywhere_widget.png">
-                    </a>
-                  </div>
-                  <div style="float:right;">
-                    <div style="float:right;">
-                      <img src="../a248.e.akamai.net/secure.meetupstatic.com/img/03784007994490629714917/star_450.png" alt="4.5">
-                    </div>
-                    <br>
-                    <div style="float:right;">
-                      <span class="mup-tlabel">Valoración del grupo</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="mup-getwdgt" style="height: 20px;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <section id="redes">
+            <div class="columna mitad pad80 horizontal-center bk-color-fb">
+                <a href="https://www.facebook.com/Sustentateapp" target="_blank">
+                  <img  style="float:right" id="logored" src="img/facebook-logo.png" alt=""></a>
 
-        <div id='calendar'></div>
-      </div>
-    </div>
-  </section>
+            </div>
+            <div class="columna mitad pad80 horizontal-center instagram">
+                <a href="https://instagram.com/sustentate.buenosaires" target="_blank">
+                    <img style="float:left" id="logored" src="img/instagram-logo.png" alt="">
+                </a>
+            </div>
+        </section>
 
-  <section id="redes" class="bk-color-gray3">
-    <div class="columna mitad pad80 horizontal-center bk-color-fb">
-      <a href="http://fb.com/partidodelared" target="_blank">
-        <div class="title text-right">FACEBOOK</div>
-      </a>
-      <div id="facebookFeed" class="h4 pad30 no-horizontal-pad">
-        <div class="fb-like" data-share="false" data-width="200" data-show-faces="false"></div>
-      </div>
-    </div>
-    <div class="columna mitad pad80 horizontal-center bk-color-tw">
-      <a href="http://twitter.com/partidodelared" target="_blank">
-        <div class="title text-left">INSTAGRAM</div>
-      </a>
-      <div id="twitterFeed" class="h4 pad30 no-horizontal-pad">
-      </div>
-    </div>
-  </section>
+        <section id="footer" class="pad30 horizontal-center bk-color-gray4">
+            <div class="h4 width-full">Hecho
+                <div class="withLove">con
+                    <div class="icono icono-20 corazon display-inline"></div>
+                </div> conciencia</div>
+        </section>
 
-  <section id="footer" class="pad30 horizontal-center bk-color-gray4">
-    <div class="h4 width-full">Hecho
-      <div class="withLove">con
-        <div class="icono icono-20 corazon display-inline"></div>
-      </div> conciencia</div>
-  </section>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/options.js"></script>
+        <script src="js/utilities.js"></script>
+        <script src='js/moment.min.js'></script>
+        <script src='js/fullcalendar.min.js'></script>
+        <script src='js/gcal.js'></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/scripts.js"></script>
 
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-45111382-4', 'auto');
-    ga('send', 'pageview');
-  </script>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/options.js"></script>
-  <script src="js/utilities.js"></script>
-  <script src='js/moment.min.js'></script>
-  <script src='js/fullcalendar.min.js'></script>
-  <script src='js/gcal.js'></script>
-  <script src="js/parallax.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/fbFeed.js"></script>
-  <script src="js/twFeed.js"></script>
-  <script src="js/twitterFetcher.min.js"></script>
-  <script>
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {
-        return;
-      }
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "../connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
 
 
 </body>

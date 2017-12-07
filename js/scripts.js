@@ -65,8 +65,8 @@ $(document).ready(function() {
   //Seteo de equipo
   shuffle(organizers).forEach(function(org) {
     $('#equipoContenedor').append(
-      $('<div class="columna pad20">'+
-        '<div class="list-item half-height horizontal-center vertical-center font-color-white" data-comision="'+org.name+'" style="border-color:'+org.color+'">'+
+      $('<div class="columna tercio pad20">'+
+        '<div class="list-item horizontal-center height-limit vertical-center font-color-white" data-comision="'+org.name+'" style="border-color:'+org.color+'">'+
           '<div>'+
             '<div class="h2 bold all-caps">'+org.displayName+'</div>'+
             '<separador class="diez"></separador>'+
@@ -116,9 +116,10 @@ function ResizeBoxes() {
 function CheckScroll() {
   if ($(window).scrollTop() >= $()) {
     clearInterval(time);
-  } else {
-    time = setInterval(bounceVisionCiudad, 4000);
   }
+  else {
+    time = setInterval(bounceVisionCiudad, 4000);
+  
   if ($(window).scrollTop() >= $(window).outerHeight()/10*9) {
     $('#header.root').addClass('position-fixed');
     $('#header.root nav#menu .button').removeClass('no-width');
@@ -131,6 +132,8 @@ function CheckScroll() {
       $('#portada').addClass('height-almost-full').removeClass('height-full');
   }
 }
+}
+
 
 function bounceVisionCiudad() {
   // var delay = 0;
