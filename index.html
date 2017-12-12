@@ -6,7 +6,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="theme-color" content="#169CBF">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <title>Sustentate</title>
     <meta name="description" content="Tu asistente móvil ecológico">
     <meta name="author" content="Sustentate">
@@ -16,7 +15,8 @@
     <link rel="stylesheet" href="css/fullcalendarc619.css?v=1.0">
     <link rel="stylesheet" href="css/meetupc619.css?v=1.0">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-    <script src="https://use.fontawesome.com/cfbdb6787a.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/sweetalert.min.js"></script>
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -57,20 +57,29 @@
 
 <body>
 
-    <section id="portada" class="vertical-center horizontal-center height-almost-full" style="background-image: url('img/portada.jpg')">
+    <section id="portada" class="vertical-center horizontal-center height-almost-full"  style="background-image:url(img/portada.jpg)">
         <div class="bk pdrfy position-absolute width-full height-full">
-            <video src="img/portada.mp4" autoplay="" muted="" loop="" poster="img/portada.jpg"></video>
+
+            <video autoplay="1" class="header-video" id="first_video" preload="1">
+                <source src="img/portada.mp4">
+            </video>
+            <video class="header-video hidden" id="video_loop" loop="1" preload="1">
+                <source src="img/portada2.mp4">
+            </video>
+
+
+
         </div>
-        <div class="wrapper">
+        <div class="wrapper hidden" id="botonera" >
             <separador class="veinte"></separador>
 
             <div class="title thiner all-caps">#Sustentate</div>
             <!--<span class="bold"></span>-->
             <separador class="veinte"></separador>
 
-            <a href="#" target="_blank">
-                <div class="button h2 bold pad60 bk-color-3 display-inline">DESCARGA LA APP</div>
-            </a>
+            <!--<a href=""  target="_blank">-->
+                <div class="button h2 bold pad60 bk-color-3 display-inline" id="btnDescarga2">DESCARGA LA APP</div>
+            <!--</a>-->
             <separador class="veinte"></separador>
             <div>
                 <img src="img/proximamente-GooglePlay.png" alt="google play" class="gp ">
@@ -87,9 +96,9 @@
             <li class="menuitem" data-section="equipo">Qué hacemos</li>
             <li class="menuitem" data-section="visionciudad">Sobre nosotros</li>
             <li class="menuitem" data-section="calendario">Agenda Ambiental</li>
-            <a href="#" target="_blank">
-                <div class="button mini h4 bold pad30 bk-color-3-inv no-width">DESCARGA LA APP</div>
-            </a>
+            <!--<a href=""  target="_blank">-->
+                <div class="button mini h4 bold pad30 bk-color-3-inv no-width" id="btnDescarga">DESCARGA LA APP</div>
+            <!--</a>-->
         </nav>
     </section>
 
@@ -153,7 +162,7 @@
                             <p class="role">Co-Founder</p>
                             <p class="bio">Tengo 16 años y soy estudiante de la escuela secundaria. Me apasiona la computación y la programación.</p>
                             <div class="social">
-                                <a href="mailto:" target="_blank">
+                                <a href="mailto:luca@grisotto.com.ar" target="_blank">
                                     <span class="flaticon social flaticon-email">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                     </span>
@@ -258,7 +267,7 @@
         <section id="calendario" class="pad80 text-center bk-color-gray4 overflow-hidden">
             <div class="wrapper">
                 <div class="title">Agenda Ambiental</div>
-                <h4>Gracias al aporte de personas como vos, podemos obtener recursos para seguir expandiendo el conocimiento
+                <h4 class="gracias">Gracias al aporte de personas como vos, podemos obtener recursos <br/>para seguir expandiendo el conocimiento
                     en materia de sostenibilidad.</h4>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScgWyVA3nbM-p2r_xpHxp4cKTduEo4KZxqe2KqW6Gf1sZeHzQ/viewform?usp=sf_link">
                     <div id="sumate" class="button:hover">¡Sumate!</div>
@@ -281,7 +290,8 @@
         <section id="redes">
             <div class="columna mitad pad80 horizontal-center bk-color-fb">
                 <a href="https://www.facebook.com/Sustentateapp" target="_blank">
-                  <img  style="float:right" id="logored" src="img/facebook-logo.png" alt=""></a>
+                    <img style="float:right" id="logored" src="img/facebook-logo.png" alt="">
+                </a>
 
             </div>
             <div class="columna mitad pad80 horizontal-center instagram">
