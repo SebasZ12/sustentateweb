@@ -78,7 +78,7 @@ $(document).ready(function () {
         'height': '48px'
       }, 100);
       $('#header').animate({
-        'padding-bottom': '194px'
+        'padding-bottom': '242px'
       }, 100);
       $('#menu').animate({
         'top': '50px',
