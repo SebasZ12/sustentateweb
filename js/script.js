@@ -36,6 +36,13 @@ $(function() {
         $(this).parents('.nav-menu').removeClass('menu-is-open');
     })
 
+    let mainNav = document.getElementById("js-menu");
+    let navBarToggle = document.getElementById("js-navbar-toggle");
+
+    navBarToggle.addEventListener("click", function() {
+    mainNav.classList.toggle("active");
+    });
+
     /*-----------------------------------
      * ONE PAGE SCROLLING
      *-----------------------------------*/
