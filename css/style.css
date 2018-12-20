@@ -256,11 +256,15 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
 .navbar {
     font-size: 18px;
     padding: 3% 8%;
+    display: flex;
   }
   
   .main-nav {
     list-style-type: none;
-    display: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   
   .nav-links,
@@ -270,8 +274,10 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
   }
   
   .main-nav li {
+    display: flex;
     text-align: center;
     margin: 15px auto;
+    justify-content: center;
   }
 
   .imglogo {
@@ -279,9 +285,9 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
       width: 50%;
   }
 
-  .navbar ul:last-child{
-      border: #ffffff;
-      border-radius: 5%;
+  .main-nav li:last-child a{
+      border: #ffffff solid 1px;
+      border-radius: 10%;
   }
   
   .logo {
@@ -343,6 +349,20 @@ background: linear-gradient(to right, #20bf97 1%,#45d396 100%); /* W3C, IE10+, F
   }
   
   
+/*  butt
+----------------------*/
+
+.butt{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: none;
+}
+
 
 /* HERO
 ----------------------*/
